@@ -1,0 +1,13 @@
+﻿# encoding: utf-8
+# Release 17.1
+SetScriptVersion(Version="17.1.127")
+system1 = GetSystem(Name="FFF")
+solution1 = system1.GetContainer(ComponentName="Solution")
+solution1.Edit()
+solutionComponent1 = system1.GetComponent(Name="Solution")
+solutionComponent1.Clean()
+setup1 = system1.GetContainer(ComponentName="Setup")
+fluentLauncherSettings1 = setup1.GetFluentLauncherSettings()
+fluentLauncherSettings1.SetEntityProperties(Properties=Set(EnvPath={}))
+setup1.Edit()
+Save(Overwrite=True)
