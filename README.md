@@ -5,3 +5,7 @@ Check out the MultiscaleCFD_Tutorial_MIN.pdf for further information on the incl
 or contact directly:
 Michael Neidlin
 michael.neidlin@gmail.com
+
+In order to download the folders go to:
+https://minhaskamal.github.io/DownGit/#/home
+and paste the URL of the folder that you want to download
